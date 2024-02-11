@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+  background-image: url("walking-lady.jpg");
+  background-size: contain;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.header-2 span {
+  margin-left: 25px;
+}
+.head-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-weight: 900;
+  font-size: 50px;
+}
+.header-p {
+  text-align: center;
+  margin-top: 10px;
+}
+.header-btn {
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-top: 25px;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.head-bottom {
+  width: 100%;
+  margin-top: 180px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+/* ----------------------------Section----------------------  */
+
+.container {
+  margin-top: 30px;
+  height: 1250px;
+}
+
+.tag-1 {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  height: 350px;
+}
+.tag-2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  height: 350px;
+}
+.tag-img {
+  width: 100%;
+  height: 350px;
+}
+.tag-desc {
+  background-color: #2d083e;
+  text-align: start;
+  padding: 41px;
+}
+.tag-h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.tag-p1 {
+  color: white;
+  padding-bottom: 25px;
+}
+.tag-p2 {
+  color: white;
+  padding-bottom: 25px;
+}
+
+.tag-p3 {
+  color: white;
+  padding-left: 30px;
+  font-weight: bold;
+}
+.tag-btn {
+  border: 1px solid yellowgreen;
+  height: 30px;
+  width: 140px;
+  margin-top: 15px;
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tag-btn-2 {
+  border: 1px solid white;
+  height: 30px;
+  width: 140px;
+  margin-top: 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.review {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.rev {
+  padding: 40px;
+}
+
+.rev-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  padding-right: 20px;
+}
+.rev-p {
+  width: 400px;
+  color: darkgray;
+}
+.rev-name {
+  font-weight: bold;
+  color: darkgray;
+  padding-left: 68px;
+  padding-top: 20px;
+}
+
+/* ---------------------------Footer---------------------- */
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: greenyellow;
+}
+.foot {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.f-about {
+  padding: 30px;
+  padding-left: 100px;
+}
+.f-1 {
+  padding: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.f-social {
+  padding: 30px;
+  padding-left: 300px;
+}
+.f-2 {
+  padding: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+}
+.pixels {
+  font-weight: bold;
+}
